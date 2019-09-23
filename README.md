@@ -20,4 +20,4 @@ In order to get a model with best accuracy:
 • For small dataset, it is better to train the model body with a larger dataset from a similar project, followed by training the model head with the given dataset.
 
 ## Comment
-In the training process metrics "accuracy" is for multi-class tasks or binary tasks with balanced dataset; but "auroc" is restricted to binary tasks, good for unbalanced dataset.
+In the training process, metrics "accuracy" is for multi-class tasks or binary tasks with balanced dataset; but "auroc" is restricted to binary tasks, good for unbalanced dataset.
